@@ -9,6 +9,11 @@ import figgly4thSectionImg from "./assets/Figgly-4th-section-img.svg"
 
 function App() {
 
+  // Enable buttons to open the Chrome web store url of the extension
+  const handleGetStarted = () => {
+    window.open('https://chromewebstore.google.com/detail/beafjcefekfcjhmghfhcameiijghbhim?utm_source=item-share-cb', '_blank');
+  };
+
   return (
     <div className="flex flex-col">
       {/* Header */}
@@ -24,7 +29,7 @@ function App() {
             <span className="inline md:hidden">How?</span>
           </a>
         </div>
-        <button className="bg-[#4169e1] rounded-lg text-[1rem] text-white px-2 cursor-pointer">
+        <button className="bg-[#4169e1] rounded-lg text-[1rem] text-white px-2 cursor-pointer" onClick={handleGetStarted}>
           Get started
         </button>
       </div>
@@ -93,7 +98,7 @@ function App() {
       {/* 5th section */}
       <div className="flex flex-col gap-[32px] justify-center items-center h-[30rem] w-full">
         <h2>Try Figgly!</h2>
-        <button className="bg-[#4169e1] rounded-lg text-[1.5rem] text-white px-2 cursor-pointer w-[15rem] h-[4rem]">
+        <button className="bg-[#4169e1] rounded-lg text-[1.5rem] text-white px-2 cursor-pointer w-[15rem] h-[4rem]" onClick={handleGetStarted}>
           Get started
         </button>
       </div>
