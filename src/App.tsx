@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="flex flex-col">
       {/* Header */}
-      <div className="fixed w-full h-[5rem] border-b border-[#e0e0e0] xl:px-[15rem] px-4 py-[1rem] flex flex-row justify-between bg-white">
+      <div className="fixed w-full h-[5rem] border-b border-[#e0e0e0] 2xl:px-[15rem] px-4 py-[1rem] flex flex-row justify-between bg-white">
         <div className="flex flex-row md:gap-14 gap-4 items-center ">
           <img src={figglyLogo} alt="Figgly-logo" className="bg-amber-500 h-[3rem] w-[3rem]  rounded-2xl" />
           <a className="cursor-pointer" href="#what">
@@ -36,7 +36,7 @@ function App() {
 
       {/* Main */}
       {/* First section */}
-      <div className="w-full xl:px-[15rem] px-4 flex flex-col mt-[8rem] gap-4 mb-[6.25rem]">
+      <div className="w-full 2xl:px-[15rem] px-4 flex flex-col mt-[8rem] gap-4 mb-[6.25rem]">
         <h1 className="text-[6.25rem] text-[#333333]">Figgly</h1>
         <p className="xl:w-[56.25rem] w-full">Overlay your Figma frames on the website you’re coding. <strong> Inspect elements, copy their styles, paste them into your code, and compare your results with the original design — all in one tab.</strong>
           <br />
@@ -45,7 +45,7 @@ function App() {
         <img src={figglyIllustration1} alt="Figgly-illustration" className="mt-4" />
       </div>
       {/* 2nd section */}
-      <div className="w-full py-[12.5rem] bg-[#FEF0D9] flex xl:flex-row flex-col gap-6 xl:px-[15rem] px-4" id="what">
+      <div className="w-full py-[12.5rem] bg-[#FEF0D9] flex xl:flex-row flex-col gap-6 2xl:px-[15rem] px-4" id="what">
         <div className="flex flex-col justify-between">
           <h2 className="text-[3.75rem]">Figma on the Left, Code on the Right… <br />Who Needs That?</h2>
           <p>
@@ -58,7 +58,7 @@ function App() {
         <img src={figgly2ndSectionImg} alt="No need to switch tabs" />
       </div>
       {/* 3rd section */}
-      <div className="w-full py-[12.5rem] bg-[#FFCEDC] flex xl:flex-row flex-col gap-6 xl:px-[15rem] px-4">
+      <div className="w-full py-[12.5rem] bg-[#FFCEDC] flex xl:flex-row flex-col gap-6 2xl:px-[15rem] px-4">
         <img src={figgly3rdSectionImg} alt="Figgly the loving child of Figma and Chrome" />
         <div className="flex flex-col justify-between">
           <h2 className="text-[3.75rem]">Where Figma Meets Your Browser <br />
@@ -72,7 +72,7 @@ function App() {
         </div>
       </div>
       {/* 4th section */}
-      <div className="w-full py-[5rem] bg-[#ECF0FC] flex xl:flex-row flex-col gap-6 xl:px-[15rem] px-4 items-center" id="how">
+      <div className="w-full py-[5rem] bg-[#ECF0FC] flex xl:flex-row flex-col gap-6 2xl:px-[15rem] px-4 items-center" id="how">
         <div className="flex flex-col gap-4">
           <h2 className="text-[3.75rem]">So Easy, It Feels <span className="text-[#4169E1] font-bold">Figgly!</span></h2>
           <div className="flex flex-col gap-1">
