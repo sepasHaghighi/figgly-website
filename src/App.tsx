@@ -37,11 +37,22 @@ function App() {
       {/* Main */}
       {/* First section */}
       <div className="w-full 2xl:px-[15rem] px-4 flex flex-col mt-[8rem] gap-4 mb-[6.25rem]">
+
         <h1 className="text-[6.25rem] text-[#333333]">Figgly</h1>
+        <div className="flex 2xl:flex-row 2xl:justify-between flex-col gap-4">
         <p className="xl:w-[56.25rem] w-full">Overlay your Figma frames on the website you’re coding. <strong> Inspect elements, copy their styles, paste them into your code, and compare your results with the original design — all in one tab.</strong>
           <br />
           <br />No more switching back and forth between your localhost and Figma.
         </p>
+        <iframe 
+          src="https://www.youtube.com/embed/xhX9tf8-Czk" 
+            className="2xl:w-[30rem] w-full aspect-video rounded-2xl"
+          title="Figgly Demo Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        </div>
         <img src={figglyIllustration1} alt="Figgly-illustration" className="mt-4" />
       </div>
       {/* 2nd section */}
